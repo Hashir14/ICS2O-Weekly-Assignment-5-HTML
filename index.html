@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Area and Circumference Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 class="title">Area and Circumference Calculator For Circles</h1>
+    <p class="text">Use this calculator to find the area and circumference of any circle. All you need is the diameter, which is the horizontal distance across the circle. Use the left input box and button for the area calculations and the right side for the circumference calculations. NOTE: This will only work for whole numbers. All answers are in Centimetres (cm).</p>
+    <img src="./images/circle.png" class="pic" alt="Circle diagrams with diameter, radius, circumference, and area indicated and labeled.">
+    <br>
+    <br>
+    <br>
+    <p class="section" id="left">AREA</p>
+    <p class="section" id="right">CIRCUMFERENCE</p>
+    <br>
+    <p class="label" id="dia">Diameter :</p><input type="text" id="area"><p class="label"><p class="label" id="cm">cm</p>
+    <p class="label">Diameter :</p><input type="text" id="circumference"><p class="label">cm</p>
+    <br>
+    <button id="submit-area">Caclulate Area</button>
+    <button id="submit-circumference">Calculate Circumference</button>
+    <p id="answer" class="reveal">Answer:</p>
+    <p id="answer2" class="reveal">Answer:</p>
+    <script src="script.js"></script>
+  </body>
+</html>

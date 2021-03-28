@@ -1,0 +1,101 @@
+body {
+  background-color: lightblue;
+}
+
+.text {
+  font-size: 150%;
+  text-align: center;
+  background-color: brown;
+  color: aqua;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+  background-color: aqua;
+  color: brown;
+  font-size: 250%
+}
+
+.pic {
+  border: 5px solid greenyellow;
+  margin-left: 380px;
+  height: 40%;
+  width: 40%;
+}
+
+.section {
+  display: inline;
+  font-size: 150%;
+  text-decoration: underline;
+  color: blue;
+  font-weight: bold;
+}
+
+#area {
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 30px;
+  text-align: center;
+  font-size: 120%
+
+}
+
+#circumference {
+  margin-left: 10px;
+  height: 30px;
+  text-align: center;
+  font-size: 120%
+}
+
+#submit-area {
+  margin-right: 790px;
+  margin-left: 60px;
+  margin-top: 30px;
+  height: 40px;
+  width: 180px;
+  font-size: 120%;
+  color: blue;
+}
+
+#submit-circumference {
+  margin-top: 30px;
+  height: 40px;
+  width: 250px;
+  font-size: 120%;
+  color: blue;
+}
+
+#left {
+  margin-right: 880px;
+  margin-left: 110px;
+}
+
+.label {
+  display: inline;
+  margin-right: 5px;
+  font-size: 25px; 
+}
+
+#cm {
+  margin-right: 450px;
+}
+
+#dia {
+  margin-left: 10px;
+}
+
+#answer {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+#answer2 {
+  display: inline;
+  margin-left: 910px;
+}
+
+.reveal {
+  font-size: 130%;
+}
