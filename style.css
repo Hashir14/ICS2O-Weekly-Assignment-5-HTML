@@ -15,7 +15,7 @@ body {
   text-decoration: underline;
   background-color: aqua;
   color: brown;
-  font-size: 250%
+  font-size: 250%;
 }
 
 .pic {
@@ -38,15 +38,14 @@ body {
   margin-left: 10px;
   height: 30px;
   text-align: center;
-  font-size: 120%
-
+  font-size: 120%;
 }
 
 #circumference {
   margin-left: 10px;
   height: 30px;
   text-align: center;
-  font-size: 120%
+  font-size: 120%;
 }
 
 #submit-area {
@@ -75,7 +74,7 @@ body {
 .label {
   display: inline;
   margin-right: 5px;
-  font-size: 25px; 
+  font-size: 25px;
 }
 
 #cm {
