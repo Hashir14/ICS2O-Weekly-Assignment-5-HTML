@@ -5,7 +5,7 @@ document.getElementById('submit-circumference').addEventListener('click', circ)
 let diameter = 0
 let answerArea = 0
 let answerCirc = 0
-let pi = 3.14159
+const pi = 3.14159
 
 function calcArea () {
   diameter = document.getElementById('area').value
