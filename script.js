@@ -9,9 +9,9 @@ let answerCirc = 0
 // Const means that the value is not being changed like with the variables, which are storing different values all the time based on the user's input. Const means that the value will stay the same.
 const pi = 3.1415926535
 
-// This function is calculating the area when the user clicks the 'Calculate Area' button. 
+// This function is calculating the area when the user clicks the 'Calculate Area' button.
 function calcArea () {
-  // Takes the value from the input box with id 'area', stores it in the 'diameter' variable, and uses it for the calculations below. 
+  // Takes the value from the input box with id 'area', stores it in the 'diameter' variable, and uses it for the calculations below.
   diameter = document.getElementById('area').value
   // If the diameter is less than 0, then display an alert with the message below.
 
@@ -26,7 +26,7 @@ function calcArea () {
 
 // This function will calculate the circumference of the circle when the user clicks the 'Calculate Circumference' button.
 function circ () {
-  // Takes the value from the input box with id 'circumference', stores it in the 'diameter' variable, and uses it for the calculations below. 
+  // Takes the value from the input box with id 'circumference', stores it in the 'diameter' variable, and uses it for the calculations below.
   diameter = document.getElementById('circumference').value
 
   // If the diameter is less than 0, then display an alert with the message below.
