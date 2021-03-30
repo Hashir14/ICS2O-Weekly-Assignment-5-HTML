@@ -87,14 +87,16 @@ body {
 
 #answer {
   display: inline-block;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 #answer2 {
   display: inline;
-  margin-left: 910px;
+  margin-left: 750px;
 }
 
 .reveal {
   font-size: 130%;
+  background-color: aqua;
+  color: black;
 }
