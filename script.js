@@ -13,7 +13,7 @@ const pi = 3.1415926535
 function calcArea () {
   // Takes the value from the input box with id 'area', stores it in the 'diameter' variable, and uses it for the calculations below.
   diameter = document.getElementById('area').value
-  
+
   // If the diameter is less than 0, then display an alert with the message below.
   if (diameter < 0) {
     alert('Do not use negative numbers.')
